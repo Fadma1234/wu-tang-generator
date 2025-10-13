@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wu-Tang Name Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wu-Tang Name Generator</h1>
+        
+        <div id="survey" class="survey">
+            <div class="question">
+                <label>1. What's your vibe?</label>
+                <select id="q1">
+                    <option value="">Choose...</option>
+                    <option value="ghost">Mysterious & Ghostly</option>
+                    <option value="killer">Fierce & Deadly</option>
+                    <option value="master">Wise & Skilled</option>
+                    <option value="rebel">Wild & Rebellious</option>
+                    <option value="divine">Spiritual & Divine</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label>2. Pick your weapon:</label>
+                <select id="q2">
+                    <option value="">Choose...</option>
+                    <option value="sword">Sword</option>
+                    <option value="staff">Staff</option>
+                    <option value="fist">Bare Fists</option>
+                    <option value="blade">Hidden Blade</option>
+                    <option value="mind">Mind Power</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label>3. What's your element?</label>
+                <select id="q3">
+                    <option value="">Choose...</option>
+                    <option value="fire">Fire</option>
+                    <option value="water">Water</option>
+                    <option value="earth">Earth</option>
+                    <option value="air">Air</option>
+                    <option value="metal">Metal</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label>4. Choose your habitat:</label>
+                <select id="q4">
+                    <option value="">Choose...</option>
+                    <option value="shadow">The Shadows</option>
+                    <option value="mountain">Mountain Peaks</option>
+                    <option value="street">City Streets</option>
+                    <option value="temple">Ancient Temple</option>
+                    <option value="chamber">Secret Chamber</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label>5. What's your power level?</label>
+                <select id="q5">
+                    <option value="">Choose...</option>
+                    <option value="immortal">Immortal</option>
+                    <option value="supreme">Supreme</option>
+                    <option value="legendary">Legendary</option>
+                    <option value="cursed">Cursed</option>
+                    <option value="infinite">Infinite</option>
+                </select>
+            </div>
+
+            <button id="generateBtn">Generate My Wu-Tang Name</button>
+        </div>
+
+        <div id="result" class="result hidden">
+            <h2>Your Wu-Tang Name:</h2>
+            <div class="name-display" id="wuName"></div>
+            <button id="resetBtn">Generate Another</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
